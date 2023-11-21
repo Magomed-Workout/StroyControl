@@ -20,7 +20,7 @@
 
 .anim.header {
     transform: translateY(-10%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -117,7 +117,7 @@
 
 .anim.section-1 {
     transform: translateY(-10%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -179,7 +179,7 @@
 
 .anim.section-2 {
     transform: scale(0);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -240,7 +240,7 @@
 
 .anim.section-3 {
     transform: translateY(-10%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -273,7 +273,7 @@
 
 .anim.section-4 {
     transform: scale(0);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -305,7 +305,7 @@
 
 .anim.section-left-5 {
     transform: translateX(-20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 .anim.section-left-5.active {
@@ -338,7 +338,7 @@
 
 .anim.section-right-5 {
     transform: translateX(20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 .anim.section-right-5.active {
@@ -353,7 +353,7 @@
 
 .anim.section-6 {
     transform: scale(0);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -422,7 +422,7 @@
 
 .anim.title-sect-7 {
     transform: translateX(20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -440,7 +440,7 @@
 
 .anim.description-sect-7 {
     transform: translateX(-20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -464,7 +464,7 @@
 
 .anim.section-left-1 {
     transform: translateX(-20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -491,7 +491,7 @@
 
 .anim.section-right-1 {
     transform: translateX(20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -507,7 +507,7 @@
 
 .anim.section-left-2 {
     transform: translateX(-20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -522,7 +522,7 @@
 
 .anim.section-right-2 {
     transform: translateX(20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -537,7 +537,7 @@
 
 .anim.section-left-3 {
     transform: translateX(-20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -553,7 +553,7 @@
 
 .anim.section-right-3 {
     transform: translateX(20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -569,7 +569,7 @@
 
 .anim.section-8 {
     transform: scale(0);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -735,7 +735,7 @@
 
 .anim.section-9 {
     transform: scale(0);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0; 
 }
 
@@ -849,7 +849,7 @@
 
 .anim.section-left-10 {
     transform: translateX(-20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -865,7 +865,7 @@
 
 .anim.section-right-10 {
     transform: translateX(20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -938,7 +938,7 @@
 
 .anim.container-10 {
     transform: scale(0);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0; 
 }
 
@@ -997,7 +997,7 @@
 
 .anim.section-left-11 {
     transform: translateX(-20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -1029,7 +1029,7 @@
 
 .anim.section-right-11 {
     transform: translateX(20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -1100,7 +1100,7 @@
 
 .anim.title-sect-12 {
     transform: translateX(20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -1115,7 +1115,7 @@
 
 .anim.description-sect-12 {
     transform: translateX(-20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -1134,7 +1134,7 @@
 
 .anim.section-left-12{
     transform: translateX(-20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 .anim.section-left-12.active {
@@ -1197,7 +1197,7 @@
 
 .anim.section-right-12{
     transform: translateX(20%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 .anim.section-right-12.active {
@@ -1259,7 +1259,7 @@
 
 .anim.container-contech {
     transform: scale(0);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0; 
 }
 .anim.container-contech.active{
@@ -1317,7 +1317,7 @@
 
 .anim.section-13 {
     transform: translateY(-10%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
@@ -1364,7 +1364,7 @@
 
 .anim.footer {
     transform: translateY(10%);
-    transition: 1s all ease-in-out;
+    transition: 0.5s all ease-in-out;
     opacity: 0;
 }
 
