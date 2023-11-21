@@ -711,21 +711,10 @@
 
 .petal {
     background-image: url(./img/petal.svg);
-    width: 1200px;
+    width: 950px;
     height: 50px;
-    background-position: 55.7vw 3px;
+    background-position: 46.3vw 4px;
     position: absolute;
-}
-
-.anim.petal {
-    transform: scale(0);
-    transition: 1.5s all ease-in-out;
-    opacity: 0; 
-}
-
-.anim.petal.active {
-    transform: scale(1);
-    opacity: 1;
 }
 
 .section-9 {
@@ -752,8 +741,8 @@
 .title-sect-9 {
     font-size: 2.5rem;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
-
 
 .description-sect-9 {
     color: #72787D;
@@ -814,6 +803,17 @@
     align-items: center;
     background: #F6F8F9;
     padding: 45px 40px;
+}
+
+.anim.cont-sect-9 {
+    transform: translateY(-10%);
+    transition: 0.5s all ease-in-out;
+    opacity: 0;
+}
+
+.anim.cont-sect-9.active {
+    transform: translateY(0%);
+    opacity: 1;
 }
 
 .cont-title {
@@ -1464,7 +1464,8 @@
     }
 
     .petal {
-        background-position: 57vw 3px;
+        background-position: 50.5vw 3px;
+        width: 850px;
     }
 
     .section-9 {
@@ -1578,7 +1579,8 @@
     }
 
     .petal {
-        background-position: 58vw 3px;
+        background-position: 46vw 3px;
+        width: 710px;
     }
 
     .section-9 {
@@ -1679,6 +1681,10 @@
         height: 31vw;
     }
 
+    .petal {
+        background-position: 48vw 3px;
+    }
+
     .section-right-1,
     .section-left-2,
     .section-right-3 {
@@ -1738,7 +1744,7 @@
     }
 
     .petal {
-        background-position: 58.5vw 3px;
+        background-position: 51.5vw 3px;
     }
 
     .section-left-10 {
@@ -1856,8 +1862,8 @@
     }
 
     .petal {
-        background-position: 59.3vw 3px;
-        width: 800px;
+        background-position: 52vw 3px;
+        width: 660px;
     }
 
     .section-9 {
@@ -2019,7 +2025,8 @@
     }
 
     .petal {
-        background-position: 61vw 3px;
+        background-position: 48vw 3px;
+        width: 550px;
     }
 
     .section-9 {
@@ -2193,11 +2200,44 @@
     }
 
     .petal {
-        background-position: 66vw 3px;
+        background-position: 55vw 3px;
+        width: 430px;
     }
 
     .section-9 {
         max-width: 550px;
+    }
+
+    .anim.section-9 {
+        transform: scale(1);
+        opacity: 1; 
+    }
+    
+    .anim.section-9.active {
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    .anim.title-description-9 {
+        transform: translateY(10%);
+        transition: 0.5s all ease-in-out;
+        opacity: 0;
+    }
+
+    .anim.title-description-9.active {
+        transform: translateY(0%);
+        opacity: 1;
+    }
+    
+    .anim.container-sect-9 {
+        transform: scale(0);
+        transition: 0.5s all ease-in-out;
+        opacity: 0;
+    }
+
+    .anim.container-sect-9.active {
+        transform: scale(1);
+        opacity: 1;
     }
 
     .cont-title {
@@ -2345,6 +2385,11 @@
         font-size: 1.25rem;
         margin-top: 15px;
     }
+    
+    .petal {
+        background-position: 55vw -2px;
+        width: 320px;
+    }
 
     .section-9 {
         max-width: 400px;
@@ -2352,10 +2397,6 @@
 
     .title-sect-9 {
         font-size: 1.7rem;
-    }
-
-    .petal {
-        background-position: 65vw -2px;
     }
 
     .description-sect-9 {
@@ -2570,8 +2611,8 @@
     }
 
     .petal {
-        width: 400px;
-        background-position: 65vw 3px;
+        width: 260px;
+        background-position: 50vw 3px;
     }
 
     .section-9 {
@@ -2584,6 +2625,7 @@
     
     .title-sect-9 {
         font-size: 1.5rem;
+        padding-top: 30px;
     }
 
     .description-sect-9 {
@@ -2645,6 +2687,16 @@
     }
     
     .container-sect-11, .section-left-11, .section-right-11 {
+        max-width: 300px;
+    }
+    
+    .anim.section-right-11 {
+        transform: translateX(0%);
+        transition: 0.5s all ease-in-out;
+        opacity: 1;
+    }
+    
+    .box {
         max-width: 300px;
     }
 
@@ -2749,7 +2801,8 @@
     }
 
     .petal {
-        background-position: 66vw 3px;
+        background-position: 54vw 3px;
+        width: 270px;
     }
 
     .section-left-10 {
@@ -2805,8 +2858,8 @@
     }
 
     .petal {
-        background-position: 69vw 3px;
-        width: 300px;
+        background-position: 62vw 3px;
+        width: 260px;
     }
 
     .section-12 {
@@ -2880,8 +2933,8 @@
     }
 
     .petal {
-        background-position: 71vw 3px;
-        width: 270px;
+        background-position: 63vw 3px;
+        width: 250px;
     }
 
     .section-left-10 {
